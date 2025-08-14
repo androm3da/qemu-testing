@@ -1,18 +1,11 @@
 /*
- *  Copyright(c) 2023-2025 Qualcomm Innovation Center, Inc. All Rights Reserved.
- *
- *  SPDX-License-Identifier: GPL-2.0-or-later
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 .global single_step_ex
 single_step_ex:
 
-/* Tell everyone we have hit the Single Step exception */
-    r0 = memw(##see_single_step)
-    r0 = add(r0, #1)
-    memw(##see_single_step) = r0
-
-/* Return in monitor-mode when the test is over */
     r0 = memw(##finish_single_step)
     {
            p0 = cmp.gt(r0, #0)

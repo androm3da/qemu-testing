@@ -1,10 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
- *
- * Stub header for hwio.h
- * Provides hardware I/O macros for Hexagon subsystem control
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
+
 #pragma once
 
 #ifdef __linux__

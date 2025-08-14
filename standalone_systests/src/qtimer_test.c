@@ -1,17 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
-/*
- *
- * Qtimer Example
- *
- * This example initializes two timers that cause interrupts at different
- * intervals.  The thread 0 will sit in wait mode till the interrupt is
- * serviced then return to wait mode.
- *
- */
 #include <assert.h>
 
 

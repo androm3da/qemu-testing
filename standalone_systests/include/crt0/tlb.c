@@ -1,15 +1,11 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 #include <stdint.h>
 #include "hexagon_standalone.h"
 
-/*
- * The following 2 functions use global addressing mode
- * to avoid GP relative overflows.
- */
 static inline uint32_t get_tlb_fixed_entries(void)
 {
   uint32_t *addr;

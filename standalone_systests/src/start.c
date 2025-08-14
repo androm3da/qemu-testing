@@ -1,21 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
-/*
- * This program tests the Hexagon start instruction.
- * We test the instruction by intstalling our own reset handler.
- * Inside this handler,
- *     set a bit in reset_mask to indicate the thread was reset
- *     log the cause field in SSR register
- *     stop the thread
- *
- * The start instruction should reset all threads in the argument
- * except the current thread.  We check that the cause field in SSR
- * is preserved in the current thread and reset in the others in the
- * mask.
- */
 
 #include "thread_common.h"
 #include <hexagon_standalone.h>

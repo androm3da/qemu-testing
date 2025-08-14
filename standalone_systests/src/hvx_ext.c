@@ -1,12 +1,6 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
- */
-
-/*
- * Tests for hvx v79 extension bits. Some of these are here and not at the
- * Linux user-mode space because the Linux compiler doesn't support these
- * instructions yet.
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 #include <stdio.h>

@@ -1,14 +1,11 @@
 /*
- *  Copyright(c) 2024-2025 Qualcomm Innovation Center, Inc. All Rights Reserved.
- *
- *  SPDX-License-Identifier: GPL-2.0-or-later
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 	.section .start, "awx", @progbits
 	.p2align 3
 	.subsection 1
-/* This is the translation table    */
-/* We make a table of 2^12 entries  */
 /* Each entry is a .hword (16 bits) */
 /* Each entry is initialized to 0 in the 4 LSBs (cached WB, see system spec) */
 /* Each entry is initialized to 1:1 Virtual:Physical in the upper 12 bits.   */

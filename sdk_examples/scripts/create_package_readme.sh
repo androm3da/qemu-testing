@@ -1,9 +1,6 @@
 #!/bin/bash
-
 # Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
-# SPDX-License-Identifier: BSD-3-Claude-Clear
-
-# Create README.md for the HVX test package
+# SPDX-License-Identifier: BSD-3-Clause-Clear
 
 cat > hvx_test_package/README.md << 'EOF'
 # Hexagon HVX Test Package

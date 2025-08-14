@@ -1,14 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
-/*
- * Small cheat: take size_t, NULL, and other type/symbol definitions from the
- * hexagon toolchain. We cannot link with the libc, though, as the actual
- * implementation for functions like printf and open are defined for Linux, and
- * we are running on "bare metal".
- */
 #include <stdio.h>
 #include <stdint.h>
 #include <assert.h>

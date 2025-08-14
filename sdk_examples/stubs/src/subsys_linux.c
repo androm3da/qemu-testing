@@ -1,10 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
- *
- * Stub implementation of subsys.c for Linux builds
- * Provides no-op subsys_enable() function
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
+
 #include "subsys.h"
 
 void subsys_enable() {

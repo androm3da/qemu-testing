@@ -1,6 +1,6 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 { 0xffffee11, 0xfffffcca, 0xffffc1b3, 0xffffd0cc,

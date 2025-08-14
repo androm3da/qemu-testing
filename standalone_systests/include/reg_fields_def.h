@@ -1,49 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
-/* PTE (aka TLB entry) fields */
-DEF_REG_FIELD(PTE_PPD,
-    "PPD", 0, 24,
-    "Physical page number that the corresponding virtual page maps to.")
-DEF_REG_FIELD(PTE_C,
-    "C", 24, 4,
-    "Cacheability attributes for the page.")
-DEF_REG_FIELD(PTE_U,
-    "U", 28, 1,
-    "User mode permitted.")
-DEF_REG_FIELD(PTE_R,
-    "R", 29, 1,
-    "Read-enable.")
-DEF_REG_FIELD(PTE_W,
-    "W", 30, 1,
-    "Write-enable.")
-DEF_REG_FIELD(PTE_X,
-    "X", 31, 1,
-    "Execute-enable.")
-DEF_REG_FIELD(PTE_VPN,
-    "VPN", 32, 20,
-    "Virtual page number that is matched against the load or store address.")
-DEF_REG_FIELD(PTE_ASID,
-    "ASID", 52, 7,
-    "7-bit address space identifier (tag extender)")
-DEF_REG_FIELD(PTE_ATR0,
-    "ATR0", 59, 1,
-    "General purpose attribute bit kept as an attribute of each cache line.")
-DEF_REG_FIELD(PTE_ATR1,
-    "ATR1", 60, 1,
-    "General purpose attribute bit kept as an attribute of each cache line.")
-DEF_REG_FIELD(PTE_PA35,
-    "PA35", 61, 1,
-    "The Extra Physical bit is the most-significant physical address bit.")
-DEF_REG_FIELD(PTE_G,
-    "G", 62, 1,
-    "Global bit. If set, then the ASID is ignored in the match.")
-DEF_REG_FIELD(PTE_V,
-    "V", 63, 1,
-    "Valid bit. indicates whether this entry should be used for matching.")
 
-/* SSR fields */
 DEF_REG_FIELD(SSR_CAUSE,
     "cause", 0, 8,
     "8-bit field that contains the reason for various exception.")

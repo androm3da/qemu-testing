@@ -1,18 +1,8 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
-/*
- * Test that cache operations raise the proper exceptions
- * Strategy
- *     Install special exception handlers
- *         1) Record what happened so we can check they were invoked
- *         2) On TLB miss, create an entry with no r/w/x permission
- *         3) On a permission error, turn on the permission
- *     Perform cache operations on unmapped addresses
- *     Check for TLB miss and permission errors
- */
 
 #include <stdlib.h>
 #include <stdio.h>

@@ -1,15 +1,10 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 #ifndef REG_MUT_H
 #define REG_MUT_H
-
-/*
- * NOTE: all these macros restore the original value of the reg before
- * returning.
- */
 
 #define READ_WRITE_REG_NOCLOBBER(cur_val, result, reg_name, new_val) \
     asm volatile("%0 = " reg_name "\n\t" \

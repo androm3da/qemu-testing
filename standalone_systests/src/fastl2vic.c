@@ -1,12 +1,6 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
- */
-
-/*
- * Test the fastl2vic interface.
- *
- *  hexagon-sim a.out --subsystem_base=0xfab0  --cosim_file q6ss.cfg
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 #include "crt0/hexagon_standalone.h"

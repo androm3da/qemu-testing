@@ -1,19 +1,8 @@
 /*
- *  Copyright(c) 2019-2025 Qualcomm Innovation Center, Inc. All Rights Reserved.
- *
- *  SPDX-License-Identifier: GPL-2.0-or-later
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
-/*
- * Test Purpose:
- * Verify that tlbmissx and tlbmissrw do not set the syscfg.tl bit
- * The HW spec says:
- *     "TLBLOCK is acquired automatically whenever a hardware thread raises a
- *      TLB miss-RW or TLBmiss-X exception."
- * The casual reader would assume that a miss handler would implicitly have
- * the lock, that apparently
- * isn't the case.
- */
 
 .global start
 start:

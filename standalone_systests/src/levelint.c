@@ -1,16 +1,6 @@
 /*
  * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
- * SPDX-License-Identifier: BSD-3-Claude-Clear
- */
-
-
-/*
- * Test the fastl2vic interface.
- *
- *  hexagon-sim a.out --subsystem_base=0xfab0  --cosim_file q6ss.cfg
- * The q6ss.cfg might look like this:
- * /local/mnt/workspace/tools/cosims/qtimer/bin/lnx64/qtimer.so --debug --csr_base=0xFab00000 --irq_p=2 --freq=19200000 --cnttid=1
- * /local/mnt/workspace/tools/cosims/l2vic/src/../bin/lnx64/l2vic.so 32 0xFab10000
+ * SPDX-License-Identifier: BSD-3-Clause-Clear
  */
 
 #include <assert.h>
