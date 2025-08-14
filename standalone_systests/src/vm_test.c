@@ -1,9 +1,6 @@
 /*
- * Hexagon VM Test
- * 
- * Copyright(c) 2024 Qualcomm Innovation Center, Inc. All Rights Reserved.
- *
- * This program tests the Hexagon VM virtual instruction implementation.
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Claude-Clear
  */
 
 #include <stdint.h>

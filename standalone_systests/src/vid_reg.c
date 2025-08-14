@@ -1,5 +1,6 @@
 /*
- * Verify vid reads/writes really update the register.
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Claude-Clear
  */
 
 #include <assert.h>

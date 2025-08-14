@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Claude-Clear
+ */
 /* PTE (aka TLB entry) fields */
 DEF_REG_FIELD(PTE_PPD,
     "PPD", 0, 24,

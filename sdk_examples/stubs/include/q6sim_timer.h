@@ -1,4 +1,7 @@
 /*
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Claude-Clear
+ *
  * Stub header for q6sim_timer.h for Linux builds
  */
 #pragma once

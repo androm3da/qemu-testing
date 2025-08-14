@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * SPDX-License-Identifier: BSD-3-Claude-Clear
+ */
 
 /*
  *  Copyright(c) 2020-2025 Qualcomm Innovation Center, Inc. All Rights Reserved.
